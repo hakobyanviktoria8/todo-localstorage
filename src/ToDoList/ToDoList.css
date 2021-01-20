@@ -35,7 +35,7 @@
 .todo_h1{
     font-weight: 400;
     top: 150px;
-    left: 20px;
+    left: 45px;
     font-size: 35px;
     position: absolute;
     color: #F2EDED;
@@ -46,7 +46,7 @@
     position: absolute;
 }
 .todo_form input{
-    width: 260px;
+    width: 245px;
     height: 45px;
     border-radius: 10px;
     border: none;

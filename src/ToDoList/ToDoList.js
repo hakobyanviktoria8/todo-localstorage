@@ -96,9 +96,9 @@ export function ToDoList(props) {
                                 </button>
 
                                 {/*<input  style={{display: !edit? "none":"block"}} onChange={(event) =>hendleEditing(event)} type="text" value={item.name} />*/}
-                                <button className={"Edit"} type={"submit"} onClick={() => hendleEdit(item.id)}>
-                                    {edit ? "Save": "Edit"}
-                                </button>
+                                {/*<button className={"Edit"} type={"submit"} onClick={() => hendleEdit(item.id)}>*/}
+                                    {/*{edit ? "Save": "Edit"}*/}
+                                {/*</button>*/}
                             </li>
                             )
                         )
