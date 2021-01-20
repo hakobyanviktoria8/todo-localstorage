@@ -86,7 +86,7 @@ export function ToDoList(props) {
                         items && items.map((item)=>(
                             <li key={item.id} className={"todo_bottom_li"}
                                 style={{textDecoration : item.select ? "line-through" : null}}>
-                                <span style={{display: edit ? "none":"block"}}>
+                                <span>  {/*style={{display: edit ? "none":"block"}}*/}
                                     <input type = "checkbox" checked = {item.select} onChange = {() => hendleSelected(item.id)}/>
                                     <span className={"todo_bottom_text"}>{item.name}</span>
                                 </span>
@@ -96,9 +96,9 @@ export function ToDoList(props) {
                                 </button>
 
                                 {/*<input  style={{display: !edit? "none":"block"}} onChange={(event) =>hendleEditing(event)} type="text" value={item.name} />*/}
-                                {/*<button className={"Edit"} type={"submit"} onClick={() => hendleEdit(item.id)}>*/}
-                                    {/*{edit ? "Save": "Edit"}*/}
-                                {/*</button>*/}
+                                <button className={"Edit"} type={"submit"} onClick={() => hendleEdit(item.id)}>
+                                    {edit ? "Save": "Edit"}
+                                </button>
                             </li>
                             )
                         )
