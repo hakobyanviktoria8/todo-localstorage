@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/todo-localstorage/static/css/main.3b140c03.chunk.css",
+    "main.js": "/todo-localstorage/static/js/main.865645f3.chunk.js",
+    "main.js.map": "/todo-localstorage/static/js/main.865645f3.chunk.js.map",
+    "runtime-main.js": "/todo-localstorage/static/js/runtime-main.a16bab7d.js",
+    "runtime-main.js.map": "/todo-localstorage/static/js/runtime-main.a16bab7d.js.map",
+    "static/js/2.be0d9585.chunk.js": "/todo-localstorage/static/js/2.be0d9585.chunk.js",
+    "static/js/2.be0d9585.chunk.js.map": "/todo-localstorage/static/js/2.be0d9585.chunk.js.map",
+    "index.html": "/todo-localstorage/index.html",
+    "static/css/main.3b140c03.chunk.css.map": "/todo-localstorage/static/css/main.3b140c03.chunk.css.map",
+    "static/js/2.be0d9585.chunk.js.LICENSE.txt": "/todo-localstorage/static/js/2.be0d9585.chunk.js.LICENSE.txt",
+    "static/media/ToDoList.css": "/todo-localstorage/static/media/Group.767e74e9.svg",
+    "static/media/del.7ad449e5.svg": "/todo-localstorage/static/media/del.7ad449e5.svg",
+    "static/media/playlist.8723a10c.svg": "/todo-localstorage/static/media/playlist.8723a10c.svg",
+    "static/media/refresh1.988d1bf6.svg": "/todo-localstorage/static/media/refresh1.988d1bf6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a16bab7d.js",
+    "static/js/2.be0d9585.chunk.js",
+    "static/css/main.3b140c03.chunk.css",
+    "static/js/main.865645f3.chunk.js"
+  ]
+}
